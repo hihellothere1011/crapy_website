@@ -6,6 +6,13 @@ body {
     background: -webkit-linear-gradient(-180deg, #35577D, #141E30);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background: linear-gradient(-180deg, #35577D, #141E30);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
 }
 
 h1 {
@@ -46,10 +53,13 @@ a {
 
 .writer {
     font-family: Helvetica;
-    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.writer.img {
+.writer img {
     width: 50px;
-    float: left;
+    margin-right: 10px;
 }
