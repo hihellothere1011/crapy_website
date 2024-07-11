@@ -3,17 +3,17 @@ body {
     /* Old browsers */
     background: #141E30;
     /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-linear-gradient(-90deg, #35577D, #141E30);
+    background: -webkit-linear-gradient(-180deg, #35577D, #141E30);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(-90deg, #35577D, #141E30);
+    background: linear-gradient(-180deg, #35577D, #141E30);
 }
 
 h1 {
-    color: #b58738;
+    color: #ffffff;
 }
 
 h3 {
-    color: #72e5ce;
+    color: #66dfc7;
 }
 
 p {
@@ -21,13 +21,12 @@ p {
 }
 
 h4 {
-    color: #72e5ce;
+    color: #f8f8f8;
 }
 
 .large-text {
     font-size: 60px;
     font-weight: bold;
-    color: rgba(238, 194, 194, 0.9)            e6;
 }
 
 .intro {
@@ -36,11 +35,11 @@ h4 {
 }
 
 a {
-    color:rgba(241, 57, 53, 0.932)
+    color:rgba(247, 181, 180, 0.932)
 }
 
 .docs {
-    color: burlywood;
+    color: rgb(255, 255, 255);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
