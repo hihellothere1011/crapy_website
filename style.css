@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    color: burlywood;
     background-color: #f0f0f0;
     color: #333;
     margin: 0;
@@ -8,17 +9,21 @@ body {
 }
 
 h1 {
-    color: #0073e6;
+    color: #b58738;
 }
 
 p {
     font-size: 18px;
 }
 
+h4 {
+    color: #72e5ce;
+}
+
 .large-text {
     font-size: 60px;
     font-weight: bold;
-    color: #0073            e6;
+    color: rgba(238, 194, 194, 0.9)            e6;
 }
 
 .intro {
@@ -27,5 +32,5 @@ p {
 }
 
 a {
-    color:rgba(136, 2, 0, 0.932)
+    color:rgba(241, 57, 53, 0.932)
 }
