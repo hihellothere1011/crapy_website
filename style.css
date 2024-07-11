@@ -37,3 +37,8 @@ a {
     color: burlywood;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.writer {
+    width: 50px;
+    float: left;
+}
