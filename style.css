@@ -1,6 +1,5 @@
 body {
     font-family: Arial, sans-serif;
-    color: burlywood;
     background-color: #f0f0f0;
     color: #333;
     margin: 0;
@@ -33,4 +32,8 @@ h4 {
 
 a {
     color:rgba(241, 57, 53, 0.932)
+}
+
+.docs {
+    color: burlywood;
 }
