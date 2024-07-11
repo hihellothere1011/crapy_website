@@ -37,7 +37,12 @@ a {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.writer {
+.writer.img {
     width: 50px;
+    float: left;
+}
+
+.writer {
+    font-family: Helvetica;
     float: left;
 }
