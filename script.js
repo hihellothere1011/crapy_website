@@ -18,8 +18,9 @@ button.addEventListener("click", changeColor);
 const question = document.getElementById('question');
 const answer = document.getElementById('answer');
 const toggle = document.getElementById('toggle');
+const faq = document.getElementById("faq")
 
-question.addEventListener('click', function() {
+faq.addEventListener('click', function() {
     if (answer.style.display === 'none' || answer.style.display === '') {
         answer.style.display = 'block';
         toggle.textContent = '(⁎⁍̴̛ᴗ⁍̴̛⁎)';
