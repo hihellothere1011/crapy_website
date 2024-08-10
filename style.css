@@ -49,6 +49,9 @@ a h1 {
     width : 37%;
     font-size: 150% !important;
     color: orangered !important;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .history {
     border: 0px solid LightGrey;
