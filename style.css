@@ -1,31 +1,20 @@
 body {
     font-family: Arial, sans-serif;
-    background: #141E30;
+    background-image: "https://media.tenor.com/lQxToHbuUNwAAAAM/rick-roll.gif";
+    background-color: #141E30;
     display: flex;
     flex-direction: column;
     margin: 0;
     padding: 5%;
     box-sizing: border-box;
     transition: background-color 0.5s ease;
+    color: rgb(255, 255, 255);
 }
 
-h1 {
-    color: #ffffff;
-    margin-bottom: 20px;
-}
+
 
 h3 {
     color: #66dfc7;
-    margin-left: 10px;
-}
-
-p {
-    font-size: 18px;
-    margin: 10px 0;
-}
-
-h4 {
-    color: #f8f8f8;
 }
 
 .large-text {
@@ -35,32 +24,22 @@ h4 {
 
 .intro {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-
-.docs {
-    color: rgb(255, 255, 255);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-top: 20px;
-}
-
-.writer {
-    font-family: Helvetica;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-
-
-img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
+.game-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 10%;
 }
 
 a h1 {
-    margin: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 auto;
 }
 
 .account {
@@ -122,13 +101,19 @@ a h1 {
     color: crimson !important;
 }
 
+.gamebuttons {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
 .faq {
     width: 300px;
     background-color: #ffb1b1;
     border: 3px groove #c7f195;
     border-radius: 5px;
     padding: 40px;
-    color: rgb(116, 114, 114);
+    color: rgb(0, 0, 0);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     transition: background-color 0.5s ease;
 }
@@ -155,7 +140,44 @@ a h1 {
     max-height: 100%; /* Adjust this value based on the content */
 }
 
-.draw {
-    color: #ffffff;
+
+#toPage2 {
+    background-color: crimson;
+    border: 0px solid crimson;
+    border-radius: 3px;
+    font-size: 50px;
+    color: #66dfc7;
+    margin-bottom: 20px;
 }
 
+#toPage2:hover {
+    border: 0px solid #66dfc7;
+    background-color: #66dfc7;
+    color: crimson;
+}
+
+
+
+#lever {
+    background-color: crimson;
+    border: 0px solid crimson;
+    border-radius: 3px;
+    font-size: 50px;
+    color: #66dfc7;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+#lever:hover {
+    border: 0px solid #66dfc7;
+    background-color: #66dfc7;
+    color: crimson;
+}
+.anime {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
